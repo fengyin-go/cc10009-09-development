@@ -10,6 +10,7 @@ const Antibot = () => import('@/views/antibot/index.vue')
 const Ratelimit = () => import('@/views/ratelimit/index.vue')
 const Retry = () => import('@/views/retry/index.vue')
 const Extractor = () => import('@/views/extractor/index.vue')
+const Contract = () => import('@/views/contract/index.vue')
 const Pipeline = () => import('@/views/pipeline/index.vue')
 const Validator = () => import('@/views/validator/index.vue')
 const Storage = () => import('@/views/storage/index.vue')
@@ -33,6 +34,7 @@ const router = createRouter({
     { path: '/ratelimit', name: 'ratelimit', component: Ratelimit },
     { path: '/retry', name: 'retry', component: Retry },
     { path: '/extractor', name: 'extractor', component: Extractor },
+    { path: '/contract', name: 'contract', component: Contract },
     { path: '/pipeline', name: 'pipeline', component: Pipeline },
     { path: '/validator', name: 'validator', component: Validator },
     { path: '/storage', name: 'storage', component: Storage },
